@@ -1,1 +1,68 @@
 
+*{	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+
+body {
+	font-family: 'Roboto', sans-serif;
+    background-color: white;
+}
+.header {
+    padding: 25px;
+    border: 1px solid black;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.links {
+    color:black;
+}
+
+.skills {border-bottom: 1px solid black;}
+
+h1 {
+    text-align: center;
+    padding: 30px;
+}
+h2 {
+    text-align: center;
+    padding: 30px;
+}
+p {
+    text-align: center;
+    padding: 30px;}
+
+.photo {
+    display: block;
+    margin: auto;
+    width: 200px;
+}
+
+.section {
+        width: 100%;
+        background-color: grey;
+        border-bottom: 1px solid black;
+        
+}
+.example {
+        align-items: center;
+        font-size: 20px;
+        color: black;
+}
+.rs_school {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 0 20px 0;
+}
+.rs {
+    width: 10%;
+}
+
+ul li{list-style: none;}
