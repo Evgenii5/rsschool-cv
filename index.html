@@ -1,6 +1,5 @@
-            <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-<html>
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="./style.css">
@@ -10,15 +9,34 @@
     <title>cv</title>
   </head>
 
-   
-</head>
 <body>
     <header class="header">
+
+        <div>
+                <img class="photo" src="Evgenii Kovalenko.jpg" alt="cv_photo" />
+                <h1> Evgenii Kovalenko</h1>
+                <p>Web developer</p>
+
+        </div> 
+
+
+        <div id="contacts">
+            <h2>CONTACT INFO</h2>
+            <ul class="nav-list">
+                <li>Location: Poland, Lodz</li>
+                <li>Phone: +48 536 577 243</li>
+                <li>E-mail: <a href="evg_kovalenko@mail.ru" class="links">evg_kovalenko@mail.ru</a></li>
+                <li>Discord: Evgenii(@Evgenii5)</li>
+                <li>GitHub: Evgenii5</li>
+            </ul>
+        </div>
+
+
         <div>
             <nav>
             <ul class="nav-list">
                 <li><a href="#aboutme" class="links">About me</a></li>
-                <li><a href="#skills" class="links">Skills and Proficiency</a></li>
+                <li><a href="#skills" class="links">Skills</a></li>
                 <li><a href="#codeexample" class="links">Code Example</a></li>
                 <li><a href="#education" class="links">Education</a></li>
                 <li><a href="#experience" class="links">Experience</a></li>
@@ -27,77 +45,93 @@
             </ul>
             </nav>
         </div>
-          <div>
-            <h1> Evgenii Kovalenko</h1>
-          </div> 
-          <div>
-                <img class="photo" src="Evgenii Kovalenko.jpg" alt="cv_photo" />
-            </div>         
-            <p>Web developer</p>
+         
     </header>    
+
+
 
     <main>
          
     
         <section class="section" id="aboutme"> 
                 <h2>ABOUT ME</h2>
-                <div>
-                    <p>My goal is to be a front-end developer. I have the following soft skills: communication, the ability to work in a team, diligence and commitment. I also have hard skills: specialized education in the field of computer technology and radio electronics, experience as a system administrator for more than 5 years.</p>
+                <div class="section1" >
+                    My goal is to be a front-end developer. I have the following soft skills: communication, the ability to work in a team, diligence and commitment. I also have hard skills: specialized education in the field of computer technology and radio electronics, experience as a system administrator for more than 5 years.
                 </div>
         </section>
 
 
 
         <section class="section" id="skills">
-            <h2>SKILLS AND PROFICIENCY</h2>
-                    <p> HTML5, CSS3 Basics</p>
-                    <p> JavaScript  Basics</p>
-                    <p> Git, GitHub Basics</p>
+            <h2>SKILLS</h2>
+                    <div class="section1">
+                        <ul><li> HTML5, CSS3  (Basics)</li>
+                            <li> JavaScript   (Basics)</li>
+                            <li> Git, GitHub  (Basics)</li>
+                        </ul>   
                     
         </section>
 
 
         <section class="section" id="codeexample">
             <h2>CODE EXAMPLE</h2>
-            <div class="example">
+            <div class="section1">
                 <pre>                    
-                            function multiply($a, $b) 
-                            {return $a * $b;}
+                     function multiply($a, $b) 
+                     {return $a * $b;}
               </pre> 
             </div>
         </section>
 
+
+
         <section class="section" id="experience">
           <h2>EXPERIENCE</h2>
-          <p><a href="https://github.com/Evgenii5" class="links">https://github.com/Evgenii5</a></p>
+          <div class="section1"><a href="https://github.com/Evgenii5" class="links">https://github.com/Evgenii5</a></div>
            
-
-
         </section>   
+
+
+
+
         <section class="section" id="education">
                 <h2>EDUCATION</h2>
-                <p>Russia, Rostov State University, Faculty of Physics. Department of Radiophysics and Electronics.</p>
-                
+                <div class="section1">
+                <ul>University:<li>Russia, Rostov State University, Faculty of Physics. Department of Radiophysics and Electronics</li>
+                    <ul>Courses:
+                        <li>HTML Academy</li>
+                        <li>Stepik (HTML CSS basics)</li>
+                        <li>RS shcool (stage 0 in process)</li>
+                        <li>Poland, shcool Cosinus, curs technik-programmist frontend in process</li>
+                    </ul>
+                </ul>
+                </div>
+     
         </section>
+
 
         <section class="section" id="languages">
             <h2>LANGUAGES</h2>
-            <p>English A2 </p>
-            <p>Polish A2 </p>
+            <div class="section1">
+                <ul>    <li>Russian - native speaker</li>
+                        <li>English - A2</li>
+                        <li>Polish - A2</li>
+                </ul>
+            
         </section>
     </main>
-    <footer id="contacts">
-            <h2>CONTACTS</h2>
-            <p> E-mail  - evg_kovalenko@mail.ru    <a href="evg_kovalenko@mail.ru" class="links">massage</a></p>
-            <p> Discord: Evgenii(@Evgenii5)</p>
-            <p> Phone: +7904 446 82 44</p>
+
+
+
+    <footer >
+            
             <div class="rs_school">
                 <div class="rs">
                   <a href="https://rs.school/js/" target="_blank">
                       <img src="https://rs.school/images/rs_school_js.svg" alt="rs school docs">
                   </a>
               </div>  
-              <div class="year">2022</div>
+              <div class="year">2021</div>
               </div>
     </footer>
 </body>
